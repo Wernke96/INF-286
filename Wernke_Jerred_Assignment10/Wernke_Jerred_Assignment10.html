@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BuyIntel.html</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <style type="text/css">
+		h3 {	background-color:#d5edb3;
+				color:#5c743d;
+				font-family:Georgia, "Times New Roman", serif;
+				
+		}		
+		body { 	background-color:#f4ffe4;
+				color:#333333;
+				font-family:Arial, Verdana, sans-serif;
+				margin:auto;
+				width:80%; 
+            color: gray;}
+         .User p{ padding-left: 20px;
+             font-family: times new roman;
+                
+            }
+			
+	
+		
+    </style>
+
+<script type="text/javascript" >
+
+var y = window.confirm("Would you like to buy some processors");
+if(y== false){
+    window.open("exiting10.html");
+}
+    var place
+    if (y == true){
+var name = prompt("The name on the order");
+    place = prompt("Your address");
+    var pn = prompt("Please enter your phone number");
+    var emailaddress = prompt("Please type your email ");
+    var sum = parseInt(prompt("How many chips would like to buy"));
+ var dis = 0.00 ; 
+        if (sum >= 20 && sum < 40){
+            dis = 0.02;
+        }
+        if (sum >= 40 && sum < 50){
+            dis = 0.03;
+        }
+        if (sum >= 50 && sum < 80){
+            dis = 0.04;
+        }
+        if (sum >= 80 && sum < 100){
+            dis = 0.06;
+        }
+        if(sum >= 100){
+            dis = 0.08;
+        }
+    
+    
+     var totalamount = sum * 110;
+        var saved = totalamount * dis;
+        var disamount = totalamount - saved;
+    }
+    
+    document.write("<div class =\"User\">");
+    document.write("<h3>User information </h3>");
+    document.write("<p>"+"Your name: "+name+"<br>");
+    document.write("Your address: "+place+"<br>");
+    document.write("Phone: "+pn+"<br>");
+    document.write("email: "+emailaddress+"</p>");
+    document.write("</div>");
+    document.write("<div class = \"cust\">");
+    document.write("<h3>Customerpuchase</h3>");
+    document.write("<p>"+"How many chip: "+sum+"<br>");
+    document.write("Cost per unit $110"+"<br>");
+    document.write("Total cost before discount:  "+ totalamount+"<br>");
+    document.write("This discount:  "+ dis+ "/"+saved+"<br>");
+    document.write("This discounted amount:  " + disamount+"</p>");
+    document.write("</div>");
+    
+
+</script>
+
+
+</body>
+</html>

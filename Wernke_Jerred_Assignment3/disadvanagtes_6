@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+ <head>
+<title>Disadvantage.html</title>
+<meta charset = "utf-8">
+<link rel = "stylesheet" href = "ex3_5.css" type = "text/css">
+</head>   
+<body>
+<h1>Disadvantage.html</h1>
+    <p><a href ="https://www.w3schools.com/">w3c</a></p>
+    <ul>
+<li>CSS support in web browsers hadn’t kept up </li>
+<li>CSS was not designed to describe 2D grids</li>
+<li>Some problems can be solved by just taking advantage of the natural way in which HTML/CSS work.</li>
+</ul>
+<p> if you have aany question <a href = "mailto:jdwernke@gmail.com">jdwernke@gmail.com</a></p>
+    
+    
+    </body>    

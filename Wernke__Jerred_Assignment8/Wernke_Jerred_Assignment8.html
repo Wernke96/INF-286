@@ -1,0 +1,48 @@
+<! DOCTYPE html>
+<html lang = "en">
+<head><title>Survey</title>
+<meta charset = "utf-8">
+<link rel = "stylesheet" href="Wernke_Jerred_Assignment8.css" type="text/css">
+</head>
+<body>
+<h1>Music Survey</h1>
+<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+<fieldset>
+<legend>Customer Email</legend>
+<label for="yrName">Customer Information</label>
+<input type="text" name="custName" id="cusName">
+<label for="custEmail">Email</label>
+<input type ="text" name="custEmail" id="custEmail">
+       </fieldset>
+    <fieldset>
+    <legend>Select Your favorite Type of Music</legend>
+        <input type="checkbox" name="Fav_Music" id="pop" value= "pop">pop 
+        <input type= "checkbox" name="Fav_musi" id="Rock" value="Rock"> Rock<br> 
+        <input type="checkbox" name="FavMuisc" id="Rap" value="Rap">Rap 
+        
+        <input type = "checkbox" name="Fav_Music" id="Class"value="Classical">Classical<br>
+        <input type="checkbox" name="folk" id="Folk" value ="folk">folk
+            <input  type="checkbox" name="other" id="Other" value= "Other">other
+    </fieldset>
+    <fieldset>
+    <legend>Select how you purchase Music </legend>
+    <input type="radio" name="Puchase_Meth" id="pucId" value= "CDS" >CDS &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="Puchase_Meth" id = "pucApps" value="Apps" >App store&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="Puchase_Meth" id="pucOther" value="other">Other
+    </fieldset>
+    <fieldset>
+    <legend>Where do you play music</legend>
+        <select multiple size = "4" name ="places music is played" id="musicp">
+            <option  value = "home">Home</option>
+            <option value="car">car</option>
+            <option value="otherplc">Other</option>
+        </select>
+    </fieldset>
+    <fieldset><legend>What role does Music play in your</legend>
+        <textarea name="Musicrole" id="Musiccom" rows="4" cols="40">What your roly</textarea>
+        
+    </fieldset>
+     <input id="musSubmint" type="submit" value="Submit"><input id="musType" type="reset" value="reset">
+    </form>
+    </body>
+    </html>

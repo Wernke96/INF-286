@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>arrary.html</title>
+<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+    var total = 0;
+var ar = new Array (10);
+    ar[0]=0;
+    ar[1]=1;
+    ar[2]=2;
+    ar[3]=3;
+    ar[4]=4;
+    ar[5]=5;
+    ar[6]=6+2;
+    ar[7]=7+2
+    ar[8]=8+2;
+    ar[9]=9+2;
+     document.write("<p>") 
+    for (var i = 0; i < ar.length; i=i+1){
+        var sqaure = Math.sqrt(ar[i]);
+        document.write(ar[i]);
+        document.write("   "+ sqaure);
+        document.write("<br>");
+        
+    }
+    document.write("</p>");
+    
+    for (var element in ar){
+       total = total + ar[element];
+    
+    }
+    document.write("<h1>total is "+total+"</h1>");
+</script>
+</body>
+</html>

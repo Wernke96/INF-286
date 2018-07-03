@@ -1,0 +1,16 @@
+body { background-color :#FFFFFF;
+		color: #000099;
+        font-family: Arial, Helvetica, sans-serif;
+  }
+a:link {
+    background-color: #CCCCCC;
+}
+h1 {
+    font-family:"Times New Roman";
+    color: #000000;
+}
+.news{
+    color: red;
+    font-style: italic;
+    
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title > exforlogo</title>
+</head>
+<style>
+    #rightarea{position: absolute;
+        top: 20px;
+        right: 40px;
+        background-color: lightgray;
+        border: solid;
+    }
+   
+    
+</style>
+    
+    
+    
+<div id = "rightarea"> This is for the right area</div>
+
+
+
+
+
+
+
+
+</html>

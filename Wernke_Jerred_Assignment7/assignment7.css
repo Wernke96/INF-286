@@ -1,0 +1,16 @@
+caption{font-weight: bold;
+    font-size: 20px;
+padding-bottom: 1.0em;}
+
+table{width:75%;
+margin: auto;
+border: 2px solid;
+border-color: black;
+border-spacing:inherit;
+text-align: center}
+
+td, th{background-color: lightgray;
+    padding: 5px;
+border-style:1px solid;
+border-color:black;
+text-align: inherit}

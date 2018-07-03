@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>askingnumbers.html</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <script type="text/javascript">
+        var inputx;
+        var inputy;
+        var x;
+        var y;
+        inputx = window.prompt("input a number x");
+        inputy = window.prompt("input a number y");
+        x = square(inputx);
+        y = square(inputy);
+        var sum = x + y;
+        document.write("<p>"+ sum +"</p>");
+        document.write("<h2> this is your answer </h2>")
+        	function square( y )    
+		{                       
+			return y * y;        
+		} // end function square  
+</script>
+</body>
+</html>
